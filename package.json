@@ -1,0 +1,47 @@
+{
+  "name": "hs-org-register",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "test": "sst test",
+    "start": "sst start",
+    "build": "sst build",
+    "deploy": "sst deploy",
+    "deploy-prod": "sst deploy --stage prod",
+    "deploy-stage": "sst deploy --stage stage",
+    "remove": "sst remove",
+    "remove-dev": "sst remove --stage dev",
+    "remove-stage": "sst remove --stage stage",
+    "update": "sst update"
+  },
+  "devDependencies": {
+    "@hubspot/api-client": "4.0.0",
+    "@types/intercom-client": "^2.11.13",
+    "@types/moment": "^2.13.0",
+    "@types/node-zendesk": "2.0.3",
+    "@types/papaparse": "5.3.1",
+    "@types/pg": "7.14.9",
+    "@types/request": "2.48.6",
+    "@types/sendgrid": "4.3.0",
+    "@types/uuid": "8.3.4"
+  },
+  "dependencies": {
+    "@aws-sdk/client-secrets-manager": "^3.24.0",
+    "@sendgrid/mail": "7.6.0",
+    "@sentry/serverless": "^6.16.1",
+    "@serverless-stack/cli": "0.60.2",
+    "@serverless-stack/resources": "0.61.0",
+    "@slack/webhook": "^6.0.0",
+    "@types/knex": "^0.16.1",
+    "aws-cdk-lib": "2.7.0",
+    "intercom-client": "^2.11.2",
+    "knex": "^1.0.1",
+    "node-fetch": "^3.2.0",
+    "node-zendesk": "2.1.0",
+    "papaparse": "^5.3.1",
+    "pg": "8.5.1",
+    "pg-native": "3.0.0",
+    "sqlutils": "1.4.0",
+    "zendesk-node-api": "1.3.0"
+  }
+}

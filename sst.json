@@ -1,0 +1,6 @@
+{
+  "name": "genoox-orienter",
+  "region": "eu-west-1",
+  "lint": false,
+  "typeCheck": true
+}
